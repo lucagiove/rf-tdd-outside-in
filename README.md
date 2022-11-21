@@ -1,5 +1,11 @@
 # Robot Framework TDD Outside-In
 
+First of all clone this repo:
+
+```sh
+git clone git@github.com:lucagiove/rf-tdd-outside-in.git
+```
+
 ### Setup End to End tests with Robot Framework
 
 #### Python3 & pip3
@@ -41,4 +47,10 @@ Download the binary for your operating system: `https://chromedriver.chromium.or
 robot selfcheck.robot
 ```
 
+#### Suggested IDE
+
+[PyCharm](https://www.jetbrains.com/pycharm/download/)
+[Robot Framework plugin](https://plugins.jetbrains.com/plugin/16086-robot-framework-language-server)
+
+Pycharm should automatically detect and use the virtual environment while the Robot Framework plugin (LSP) don't, you've to manually specify it.
 
