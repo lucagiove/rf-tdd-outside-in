@@ -39,7 +39,7 @@ pip3 install -r requirements.txt
 
 #### Install Chromium webdriver
 
-Download the binary for your operating system: `https://chromedriver.chromium.org/downloads` and move under `venv/bin/` sub directory
+Download the binary for your operating system [here](https://chromedriver.chromium.org/downloads) and move under `venv/bin/` sub directory
 
 #### Run the selfcheck test
 
