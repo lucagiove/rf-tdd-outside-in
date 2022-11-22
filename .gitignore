@@ -239,5 +239,6 @@ dist
 *output.xml
 *report.html
 /e2e-tests/log/
+frontend/.yarn/
 frontend/node_modules/
 backend/node_modules/
