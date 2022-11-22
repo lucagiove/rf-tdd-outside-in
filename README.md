@@ -6,7 +6,7 @@ First of all clone this repo:
 git clone git@github.com:lucagiove/rf-tdd-outside-in.git
 ```
 
-### Setup End to End tests with Robot Framework
+### Setup End-to-End tests with Robot Framework
 
 #### Python3 & pip3
 
