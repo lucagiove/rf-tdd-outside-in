@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './index.css';
 
-export function Square(props: any) { // FIXME Any type
+export function Square(props: any) {
 	return (
 		<button className="square" data-testid={props.dataTestId} onClick={() => props.onClick()}>
 			{props.value}
