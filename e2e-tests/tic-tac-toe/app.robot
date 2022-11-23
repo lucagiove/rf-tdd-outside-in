@@ -1,12 +1,9 @@
 *** Settings ***
 Library         SeleniumLibrary
-
-*** Variables ***
-${APP_URL}      https://rf-tdd-outside-in-frontend.loca.lt
-${BROWSER}      Chrome
+Resource        tic-tac-toe/settings.resource
 
 *** Test Cases ***
-Game Board Available
+App Game Available
     Given The Browser
     When Navigate To The App Game
     Then Title Should Be  Tic Tac Toe
@@ -17,4 +14,3 @@ Given The Browser
 
 When Navigate To The App Game
     Go To    ${APP_URL}
-
