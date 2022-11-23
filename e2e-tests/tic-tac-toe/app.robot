@@ -1,6 +1,6 @@
 *** Settings ***
 Library         SeleniumLibrary
-Resource        tic-tac-toe/settings.resource
+Resource        settings.resource
 
 *** Test Cases ***
 App Game Available
