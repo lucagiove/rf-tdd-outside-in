@@ -4,6 +4,8 @@ import { UpdateSessionDto } from './dto/update-session.dto';
 
 @Injectable()
 export class SessionService {
+  constructor() {}
+
   create(createSessionDto: CreateSessionDto) {
     return 'This action adds a new session';
   }
