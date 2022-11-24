@@ -4,6 +4,7 @@ Resource        settings.resource
 
 *** Test Cases ***
 App Game Available
+    [Tags]  smoke
     Given The Browser
     When Navigate To The App Game
     Then Title Should Be  Tic Tac Toe

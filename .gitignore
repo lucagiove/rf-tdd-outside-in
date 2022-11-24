@@ -242,3 +242,4 @@ dist
 frontend/.yarn/
 frontend/node_modules/
 backend/node_modules/
+*.env

@@ -1,10 +1,11 @@
 import { Injectable } from '@nestjs/common';
 import { CreateSessionDto } from './dto/create-session.dto';
 import { UpdateSessionDto } from './dto/update-session.dto';
+import { PrismaRepo } from './prisma.repo';
 
 @Injectable()
 export class SessionService {
-  constructor() {}
+  constructor(repo: PrismaRepo) {}
 
   create(createSessionDto: CreateSessionDto) {
     return 'This action adds a new session';
