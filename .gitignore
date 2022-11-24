@@ -239,7 +239,9 @@ dist
 *output.xml
 *report.html
 /e2e-tests/log/
+/e2e-tests/*.png
 frontend/.yarn/
 frontend/node_modules/
 backend/node_modules/
 *.env
+*.jsx
